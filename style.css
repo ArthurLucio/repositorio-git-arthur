@@ -1,0 +1,101 @@
+body {
+  color: rgb(207, 198, 198);
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+  background-color: #131313;
+}
+ul {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  padding: 16px;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.profile {width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #96b14a
+}
+div {
+    text-align: center;
+}
+h1{
+    color:#96b14a;
+}
+.icon {width: 50px;
+ 
+  height: 50px;
+  border-radius: 50%;
+    
+}
+.icon:hover{
+  opacity: 70%;
+}
+li:hover{
+  opacity: 70%;
+}
+.footer{
+  justify-content: center ;
+  display: flex;
+
+}
+footer  {
+  margin-top: 17rem;
+ ;
+  
+}
+.icon {
+  justify-content: space-between;
+}
+  
+  
+footer a {
+  margin: 20px;
+}
+.botao {
+  background-color: #96b14a;
+  padding :10px;
+  border-radius: 7px;
+}
+.botao:hover{
+  transition: 0.3s;
+  background-color: #96b14a7e; 
+}
+main {
+
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  padding: 0px 50px;
+}
+.Descritivo {
+  color: rgb(207, 198, 198);
+  font-family: Arial, Helvetica, sans-serif
+;
+    
+}
+nav .botao.active {
+  background-color: #4a5a1d; /* Cor de fundo para destacar */
+  color: #131313;}
+
+.contatos{
+  height: 40px;
+}
+
+.emails{
+  height: 40px;
+}
+
+.livros{
+  height: 40px;
+}
+.livros:hover {
+   opacity: 70%;
+}

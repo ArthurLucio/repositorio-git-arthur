@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li class="botao">
+                    <a href="/index.html">Home</a>
+                </li>
+                <li class="botao">
+                    <a href="/content/sobre.html">Sobre mim</a>
+                </li>
+                <li class="botao">
+                    <a href="/content/contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+
+        <p>Meus contatos no footer abaixo</p>
+                <a >
+                    <img class="contatos" src="../img/git.png" alt="GitHub">
+                    
+                </a>
+                <a >
+                    <img class="contatos" src="../img/linkedin.png" alt="LinkedIn">
+                   
+                </a>
+                <a >
+                    <img class="contatos" src="../img/insta.png" alt="Instagram">
+                    
+                </a>
+            <p>meus emails: </p>
+            <a ><p> <img class="emails" src="../img/email.png" alt="email"> lucioarthur165@gmail.com</p></a>
+            <a ><p> <img class="emails" src="../img/email.png" alt="email"> alams2.com</p></a>
+            <a ><p> <img class="emails" src="../img/email.png" alt="email"> alams@gmail.com</p></a>
+
+
+        <footer>
+            <div class="footer">
+                <a href="https://github.com/ArthurLucio/repositorio-git-arthur" target="_blank" rel="nooponer noreferrer">
+                    <img class="icon" src="../img/git.png" alt="GitHub">
+                    <p>github</p>
+                </a>
+                <a href="https://www.linkedin.com/in/arthur-lúcio-691072304/" target="_blank" rel="nooponer noreferrer">
+                    <img class="icon" src="../img/linkedin.png" alt="LinkedIn">
+                    <p>linkedin</p>
+                </a>
+                <a href="https://www.instagram.com/_arthur_lucio/" target="_blank" rel="nooponer noreferrer">
+                    <img class="icon" src="../img/insta.png" alt="Instagram">
+                    <p>instagram</p>
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        
+        function setActiveTab() {
+            var currentPath = window.location.pathname;
+            var navLinks = document.querySelectorAll('nav .botao a');
+
+            navLinks.forEach(function(link) {
+                var linkPath = link.getAttribute('href');
+                if (currentPath === linkPath) {
+                    link.parentElement.classList.add('active');
+                }
+            });
+        }
+
+        
+        document.addEventListener('DOMContentLoaded', setActiveTab);
+    </script>
+</body>
+</html>
